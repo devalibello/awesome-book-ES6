@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 5px;
+  border: black solid 2px;
+}
+
+.menu li {
+  list-style: none;
+  border-left: black solid 1px;
+  padding-left: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 80%;
+}
+
+.book {
+  align-items: center;
+  padding: 7px;
+  display: flex;
+  gap: 5px;
+}
+
+.book-1 {
+  background-color: rgb(224, 218, 218);
+}
+
+.book-0 {
+  background-color: rgb(150, 146, 146);
+}
+
+.span-remove {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-remove {
+  height: 20px;
+  margin-right: 0;
+  box-shadow: -3px 3px 3px;
+}
+
+.add-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-thin {
+  border: 2px solid rgb(168, 164, 164);
+  width: 20%;
+  margin: 20px;
+}
+
+.form-elements {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.form-add-btn {
+  width: 20%;
+  box-shadow: -3px 3px 3px;
+}
+
+.form-span {
+  display: flex;
+  justify-content: end;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  bottom: 0;
+  margin: 5px;
+  border: black solid 2px;
+}
+
+.contact,
+.add-book {
+  min-height: 250px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.copy-right {
+  padding: 8px;
+}
+
+#date-and-time {
+  margin-left: auto;
+  padding: 10px 10px;
+}
